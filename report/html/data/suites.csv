@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jun 05 19:54:54 CST 2023","Mon Jun 05 19:54:55 CST 2023","871","api.credit_card","test_credit_card","TestCase","","","test_api",""
+"failed","Mon Jun 05 17:52:30 CST 2023","Mon Jun 05 17:52:30 CST 2023","475","","test_http_request","TestCase","","","test_api",""

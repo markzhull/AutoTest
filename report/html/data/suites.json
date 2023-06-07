@@ -1,0 +1,51 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test_http_request",
+    "children" : [ {
+      "name" : "TestCase",
+      "children" : [ {
+        "name" : "test_api",
+        "uid" : "bd2622cce36f7188",
+        "parentUid" : "cb1dc1c129407b1e028082fd7888adb1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1685958750302,
+          "stop" : 1685958750777,
+          "duration" : 475
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb1dc1c129407b1e028082fd7888adb1"
+    } ],
+    "uid" : "1a71a1fd8771fe0863b7aa204456bd8f"
+  }, {
+    "name" : "api.credit_card",
+    "children" : [ {
+      "name" : "test_credit_card",
+      "children" : [ {
+        "name" : "TestCase",
+        "children" : [ {
+          "name" : "test_api",
+          "uid" : "9ebb60f1f66e9f24",
+          "parentUid" : "ac592b96aec391de3de3698056b83efb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1685966094886,
+            "stop" : 1685966095757,
+            "duration" : 871
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ac592b96aec391de3de3698056b83efb"
+      } ],
+      "uid" : "cf4c42c5431a4121125d3c2d0e760550"
+    } ],
+    "uid" : "0fd7a971167d3623061412f0ce5b9bf7"
+  } ],
+  "name" : "suites"
+}

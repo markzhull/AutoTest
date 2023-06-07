@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert {'code': 103,...信息已失效, 请重新登录'} == {'code': 0, '...*5949', ...}}}\n  Differing items:\n  {'data': None} != {'data': {'businessGridConfigurationList': [{'copyWriting': '', 'desc': '邀请代理您拿佣金', 'icon': 'https://hello-finance.oss... 10}, 'userInfo': {'certStatus': 2, 'inviteCode': 'KDT2L0', 'officialInvitation': False, 'phone': '182****5949', ...}}}\n  {'code': 103} != {'code': 0}\n  Left contains 1 more item:\n  {'msg': '登录信息已失效, 请重新登录'}\n  Full diff:\n    {...\n  \n  ...Full output truncated (61 lines hidden), use '-vv' to show",
+      "children" : [ {
+        "name" : "test_api",
+        "uid" : "bd2622cce36f7188",
+        "parentUid" : "d98826b997ee454a7f91ca1fe05dfd58",
+        "status" : "failed",
+        "time" : {
+          "start" : 1685958750302,
+          "stop" : 1685958750777,
+          "duration" : 475
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d98826b997ee454a7f91ca1fe05dfd58"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,97 @@
+2021-11-18 11:34:30.594 | INFO     | httprunner.runner:test_start:450 - Start to run testcase: testcase description, TestCase ID: 66f5db0e-19d2-4cc3-be84-204f9458fc73
+2021-11-18 11:34:30.595 | INFO     | httprunner.runner:__run_step:292 - run step begin: 获取验证码 >>>>>>
+2021-11-18 11:34:30.668 | DEBUG    | httprunner.client:request:186 - client IP: 172.17.175.40, Port: 49885
+2021-11-18 11:34:30.669 | DEBUG    | httprunner.client:request:194 - server IP: 10.33.184.13, Port: 443
+2021-11-18 11:34:30.670 | DEBUG    | httprunner.client:log_print:40 - 
+================== request details ==================
+method   : GET
+url      : https://uat-hello-shop.hellobike.com/merchant/verificationCode?clientType=2&mobile=18217055949
+headers  : {
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "HRUN-Request-ID": "HRUN-66f5db0e-19d2-4cc3-be84-204f9458fc73-470596"
+}
+cookies  : {}
+body     : None
+
+2021-11-18 11:34:30.671 | DEBUG    | httprunner.client:log_print:40 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Server": "nginx",
+    "Date": "Thu, 18 Nov 2021 03:34:30 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "74",
+    "Connection": "keep-alive",
+    "Access-Control-Allow-Headers": "x-requested-with, content-type, nonce, platfrom, signature, timestamp, requestId, token, key-version, fingerprint-hash, clientId, sid, x-chaos-env, systemCode, chaos, x-custom, X-Systag",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Expose-Headers": "content-disposition, chaos, green",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+    "Traceid": "f251f1c8f04742bd98acb9a93b7a5c3d"
+}
+cookies  : {}
+encoding : utf-8
+content_type : application/json
+body     : {
+    "code": 0,
+    "msg": "操作成功!",
+    "data": "bd3776af5d21466c8bc26791d48cb472"
+}
+
+2021-11-18 11:34:30.672 | INFO     | httprunner.client:request:217 - status_code: 200, response_time(ms): 71.9 ms, response_length: 0 bytes
+2021-11-18 11:34:30.673 | INFO     | httprunner.response:extract:179 - extract mapping: {'data': 'bd3776af5d21466c8bc26791d48cb472'}
+2021-11-18 11:34:30.673 | INFO     | httprunner.response:validate:249 - assert status_code equal 200(int)	==> pass
+2021-11-18 11:34:30.674 | INFO     | httprunner.response:validate:249 - assert body.code equal 0(int)	==> pass
+2021-11-18 11:34:30.674 | INFO     | httprunner.response:validate:249 - assert body.msg equal 操作成功!(str)	==> pass
+2021-11-18 11:34:30.675 | INFO     | httprunner.runner:__run_step:304 - run step end: 获取验证码 <<<<<<
+
+2021-11-18 11:34:30.675 | INFO     | httprunner.runner:__run_step:292 - run step begin: 登录 >>>>>>
+2021-11-18 11:34:30.706 | DEBUG    | httprunner.client:request:186 - client IP: 172.17.175.40, Port: 49885
+2021-11-18 11:34:30.706 | DEBUG    | httprunner.client:request:194 - server IP: 10.33.184.13, Port: 443
+2021-11-18 11:34:30.708 | DEBUG    | httprunner.client:log_print:40 - 
+================== request details ==================
+method   : GET
+url      : https://uat-hello-shop.hellobike.com/merchant/loginNew?clientId=bd3776af5d21466c8bc26791d48cb472&userName=18217055949&verificationCode=888888
+headers  : {
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "HRUN-Request-ID": "HRUN-66f5db0e-19d2-4cc3-be84-204f9458fc73-470676"
+}
+cookies  : {}
+body     : None
+
+2021-11-18 11:34:30.709 | DEBUG    | httprunner.client:log_print:40 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Server": "nginx",
+    "Date": "Thu, 18 Nov 2021 03:34:30 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "74",
+    "Connection": "keep-alive",
+    "Access-Control-Allow-Headers": "x-requested-with, content-type, nonce, platfrom, signature, timestamp, requestId, token, key-version, fingerprint-hash, clientId, sid, x-chaos-env, systemCode, chaos, x-custom, X-Systag",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Expose-Headers": "content-disposition, chaos, green",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+    "Traceid": "89931eef48024859ac9ed319465c8309"
+}
+cookies  : {}
+encoding : utf-8
+content_type : application/json
+body     : {
+    "code": 0,
+    "msg": "操作成功!",
+    "data": "39e652e8c2ae4483a49a255fdbb39779"
+}
+
+2021-11-18 11:34:30.710 | INFO     | httprunner.client:request:217 - status_code: 200, response_time(ms): 29.18 ms, response_length: 0 bytes
+2021-11-18 11:34:30.710 | INFO     | httprunner.response:validate:249 - assert status_code equal 200(int)	==> pass
+2021-11-18 11:34:30.711 | INFO     | httprunner.response:validate:249 - assert body.code equal 0(int)	==> pass
+2021-11-18 11:34:30.711 | INFO     | httprunner.runner:__run_step:304 - run step end: 登录 <<<<<<
+

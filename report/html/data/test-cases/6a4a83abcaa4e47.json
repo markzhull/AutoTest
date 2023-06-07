@@ -1,0 +1,54 @@
+{
+  "uid" : "6a4a83abcaa4e47",
+  "name" : "test_api",
+  "fullName" : "test_http_request#None",
+  "historyId" : "c1eb9c3f8dd9e15813f24682fcdb0d30",
+  "time" : {
+    "start" : 1685869529609,
+    "stop" : 1685869530287,
+    "duration" : 678
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "信用卡分销平台"
+  }, {
+    "name" : "suite",
+    "value" : "test_http_request"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "hb04417"
+  }, {
+    "name" : "thread",
+    "value" : "44061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_http_request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a4a83abcaa4e47.json",
+  "parameterValues" : [ ]
+}

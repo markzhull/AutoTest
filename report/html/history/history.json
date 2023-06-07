@@ -1,0 +1,41 @@
+{
+  "7f94f7e873a8163e97273fb2f67cd875" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9ebb60f1f66e9f24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685966094886,
+        "stop" : 1685966095757,
+        "duration" : 871
+      }
+    } ]
+  },
+  "c1eb9c3f8dd9e15813f24682fcdb0d30" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bd2622cce36f7188",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'code': 103,...信息已失效, 请重新登录'} == {'code': 0, '...*5949', ...}}}\n  Differing items:\n  {'data': None} != {'data': {'businessGridConfigurationList': [{'copyWriting': '', 'desc': '邀请代理您拿佣金', 'icon': 'https://hello-finance.oss... 10}, 'userInfo': {'certStatus': 2, 'inviteCode': 'KDT2L0', 'officialInvitation': False, 'phone': '182****5949', ...}}}\n  {'code': 103} != {'code': 0}\n  Left contains 1 more item:\n  {'msg': '登录信息已失效, 请重新登录'}\n  Full diff:\n    {...\n  \n  ...Full output truncated (61 lines hidden), use '-vv' to show",
+      "time" : {
+        "start" : 1685958750302,
+        "stop" : 1685958750777,
+        "duration" : 475
+      }
+    } ]
+  }
+}

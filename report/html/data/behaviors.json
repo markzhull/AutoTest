@@ -1,0 +1,35 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "信用卡分销平台",
+    "children" : [ {
+      "name" : "test_api",
+      "uid" : "bd2622cce36f7188",
+      "parentUid" : "311ce7d20370130785b6e905b00e9279",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685958750302,
+        "stop" : 1685958750777,
+        "duration" : 475
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_api",
+      "uid" : "9ebb60f1f66e9f24",
+      "parentUid" : "311ce7d20370130785b6e905b00e9279",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685966094886,
+        "stop" : 1685966095757,
+        "duration" : 871
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "311ce7d20370130785b6e905b00e9279"
+  } ],
+  "name" : "behaviors"
+}
